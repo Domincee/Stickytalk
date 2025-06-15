@@ -1,25 +1,23 @@
-function Header(){
-    return(
-
+function Header() {
+    return (
         <header>
-                <nav>
-                    <ul class="navlist">
-                     
-                       <li class="logo">
-                            <img src="../public/logo.png" alt="" />
-                       </li>
+            <nav>
+                <ul className="navlist"> {/* use className in JSX */}
+                    <li className="logo">
+                        <img src="/logo.png" alt="Logo" />
+                    </li>
 
-                        <li class="accnt-dropdown">Account
-                            <ul class="acc-btns">
-                                <li>Profile</li>
-                                <li>Settings</li>
-                                <li>Logout</li>
-                            </ul>
-                       </li>
-                    </ul>
-                </nav>
+                    <li className="accnt-dropdown">Account
+                        <ul className="acc-btns">
+                            <li>Profile</li>
+                            <li>Settings</li>
+                            <li>Logout</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </header>
-    )
+    );
 }
 
-export default Header
+export default Header;
