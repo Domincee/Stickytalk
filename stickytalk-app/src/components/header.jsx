@@ -2,18 +2,22 @@ function Header(){
     return(
 
         <header>
-                <navigator>
-                    <ul>
-                        <li>Account
-                            <ul id="acc-dropdown">
+                <nav>
+                    <ul class="navlist">
+                     
+                       <li class="logo">
+                            <img src="../public/logo.png" alt="" />
+                       </li>
+
+                        <li class="accnt-dropdown">Account
+                            <ul class="acc-btns">
                                 <li>Profile</li>
                                 <li>Settings</li>
                                 <li>Logout</li>
                             </ul>
-
-                        </li>
+                       </li>
                     </ul>
-                </navigator>
+                </nav>
         </header>
     )
 }
