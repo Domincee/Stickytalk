@@ -1,14 +1,17 @@
+
+
 function Header() {
     return (
         <header>
             <nav>
-                <ul className="navlist"> {/* use className in JSX */}
+                <ul className="navlist"> 
                     <li className="logo">
                         <img src="/logo.png" alt="Logo" />
                     </li>
 
                     <li className="accnt-dropdown">Account
                         <ul className="acc-btns">
+
                             <li>Profile</li>
                             <li>Settings</li>
                             <li>Logout</li>
