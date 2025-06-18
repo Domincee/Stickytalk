@@ -49,8 +49,7 @@
     display: flex;
     flex-direction: column;
 }
-.accnt-dropdown:hover{
-}
+
 .acc-btns{
     position: absolute;
     margin-top: 25px;
